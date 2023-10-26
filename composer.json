@@ -1,0 +1,58 @@
+{
+    "name": "row-bloom/twig-interpolator",
+    "description": "row-bloom Twig interpolator driver",
+    "keywords": [
+        "html",
+        "templating"
+    ],
+    "homepage": "https://github.com/row-bloom/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "medilies",
+            "email": "medilies.contact@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/container": "*",
+        "twig/twig": "^3.6"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "mockery/mockery": "^1.6",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-arch": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "phpstan/extension-installer": "^1.1",
+        "phpstan/phpstan-deprecation-rules": "^1.0",
+        "phpstan/phpstan-phpunit": "^1.0",
+        "row-bloom/row-bloom": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "RowBloom\\TwigInterpolator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RowBloom\\TwigInterpolator\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
