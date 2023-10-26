@@ -1,8 +1,8 @@
 # Row bloom
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/row-bloom/.svg?style=flat-square)](https://packagist.org/packages/row-bloom/)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/row-bloom//run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/row-bloom//actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/row-bloom//fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/row-bloom//actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/row-bloom/twig-interpolator/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/row-bloom/twig-interpolator/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/row-bloom/twig-interpolator/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/row-bloom/twig-interpolator/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/row-bloom/.svg?style=flat-square)](https://packagist.org/packages/row-bloom/)
 
 This package is used to generate PDFs using a table of data with one or many rows, and a template that gets applied for each row.
