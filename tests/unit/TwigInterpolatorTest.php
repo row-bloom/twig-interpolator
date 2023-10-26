@@ -1,9 +1,9 @@
 <?php
 
 use RowBloom\RowBloom\Interpolators\InterpolatorFactory;
-use RowBloom\RowBloom\Interpolators\TwigInterpolator;
 use RowBloom\RowBloom\Types\Html;
 use RowBloom\RowBloom\Types\Table;
+use RowBloom\TwigInterpolator\TwigInterpolator;
 
 test('twig', function (array|Table $data, string|Html $template, string $match) {
     expect(
