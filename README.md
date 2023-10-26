@@ -12,10 +12,11 @@ composer require row-bloom/twig-interpolator
 ```
 
 ```php
-use RowBloom\RowBloom\RowBloomServiceProvider;
+use RowBloom\RowBloom\Support;
+use RowBloom\TwigInterpolator\TwigInterpolator;
 
-app()->make(RowBloomServiceProvider::class)->register();
-app()->make(RowBloomServiceProvider::class)->boot();
+app()->get(Support::class);
+    ->registerInterpolatorDriver(TwigInterpolator::NAME, TwigInterpolator::class)
 ```
 
 Requires:
